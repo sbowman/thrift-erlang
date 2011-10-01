@@ -1,0 +1,4 @@
+/deps/
+*.beam
+.DS_Store
+._*
