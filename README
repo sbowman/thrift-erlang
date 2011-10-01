@@ -41,3 +41,12 @@ ok
 {ok,ok}
 8> {C7, R7} = (catch thrift_client:call(C6, testException, ["Xception"])), R7.
 {exception,{xception,1001,<<"Xception">>}}
+
+Rebar
+=====
+
+To add this to your rebar application, include this in rebar.config:
+
+{deps, [
+    {'thrift', "0.7.0", {git, "git@github.com:sbowman/thrift-erlang.git", {tag, "0.7.0"}}} 
+]}.
