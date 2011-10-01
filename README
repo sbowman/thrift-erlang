@@ -47,6 +47,5 @@ Rebar
 
 To add this to your rebar application, include this in rebar.config:
 
-{deps, [
-    {'thrift', "0.7.0", {git, "git@github.com:sbowman/thrift-erlang.git", {tag, "0.7.0"}}} 
-]}.
+{deps, [{thrift, "0.7.0", {git, "git://github.com/sbowman/thrift-erlang", {tag, "0.7.0"}}}]}.
+
